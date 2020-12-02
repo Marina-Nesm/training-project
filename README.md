@@ -1,1 +1,12 @@
-# training-project
+﻿# training-project
+# Содержание репозитория training-project
+
+## Данные проекты были выполнены в ходе обучения в Яндекс.Практикуме, профессии "Аналитик данных" / "Специалист по Data Science".
+
+Название проекта     | Описание | 	Используемые библиотеки | 	Методы
+:------------------- |:--------:| -------------------------:|:--------: 
+Аналитика сайта Афиша | Анализ логов сервера с информацией о посещениях сайта, информации о заказах и затратах на рекламу с целью оптимизации маркетинговых затрат, определения перспективных источников привлечения | pandas, numpy, matplotlib, seaborn, plotly | to_datetime, isin, drop_duplicates, reset_index, describe,dt.year, nunique, isnull, groupby, mean, rename, round, value_counts, sort_values, np.timedelta64, cumsum, apply, pivot, hist, plot,  merge
+Принятие решений в бизнесе на основе данных | Анализ данных в части проверки и приотизации гипотез и проведение А/B теста, с целью увеличения выручки интернет-магазина | pandas, numpy, matplotlib, seaborn, plotly, scipy.stats, datetime | pandas, numpy, matplotlib, seaborn, plotly, scipy.stats, datetime lambda, datetime.strptime, map, apply, to_datetime, isin, drop_duplicates, reset_index, nunique, isnull, groupby, mean, rename, round, value_counts, sort_values, concat, cumsum, stats.mannwhitneyu, pivot, hist, plot,  merge, и прочие
+Определение потенциально популярного продукта в сфере компьютерных игр | Определение потенциально популярного продукта, с целью планировани рекламных компаний интернет-магазина | pandas, numpy, matplotlib, seaborn, plotly, scipy.stats, datetime | str.lower, dropna, isnull, sum, pivot_table, reset_index, nunique, fillna, mean, iloc, duplicated, rename, query, sort_values, groupby, value_counts, np.var, hist, plot,  merge, и прочие 
+Рынок заведений общественного питания Москвы | Определение перспективных местопложения и вида заведения, оптимального количетства посадочных мест для открытия нового формата заведения | pandas, numpy, matplotlib, seaborn, plotly | duplicated, shape, sort_values, unique, pivot_table, len, reset_index, rename, groupby, round, str.extract, str.strip, merge, pivot, hist, plot
+Анализ поведения пользователей мобильного приложения по доставке продуктов питани | Изучение воронки событий, проведение A/A/B-теста, который должен показать целеообразность изменения шрифтов во всем приложении | pandas, numpy, matplotlib, seaborn, plotly | lambda, drop_duplicates, isnull, groupby, transform, value_counts, sort_values, str.lower, apply, pivot, hist, plot,  merge, concat и прочие
